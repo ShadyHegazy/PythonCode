@@ -44,7 +44,6 @@ def isWordGuessed(secretWord, lettersGuessed):
     returns: boolean, True if all the letters of secretWord are in lettersGuessed;
       False otherwise
     '''
-    # FILL IN YOUR CODE HERE...
     i=0
     while i<(len(secretWord)):
         if secretWord[i] not in lettersGuessed:
